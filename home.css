@@ -1,0 +1,22 @@
+
+body{
+    margin: 0%;
+    height: 100vh;
+    background:linear-gradient(#03045e,#006494);
+       font-family: Arial, Helvetica, sans-serif;
+}
+#profile{
+    display: flex;
+   
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #05064e;
+}
+p{
+    margin: 0%;
+    margin-left: 5px;
+    font-size: 23px;
+    font-weight:500;
+
+}

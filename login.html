@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+    <link rel="stylesheet" href="stylelog.css">
 </head>
 <body>
          <header>
@@ -14,15 +14,16 @@
         <div class="log">
            
             <div class="container">
+                <form id="form">
                  <label id="lbl">Log-in here</label>
                  <input type="text" id="inp" placeholder="Name">
-                 <input type="email" placeholder="email">
-                 <input type="password" placeholder="password">
-                 <button id="login">Log in</button> 
-
+                 <input type="email" id="email" placeholder="email">
+                 <input type="password" id="password" placeholder="password">
+                 <button type="submit" id="login"><a href="indexhome.html">Log in</a></button> 
+                </form>
             </div>
 
         </div>
-    
+    <script src="login.js"></script>
 </body>
 </html>
