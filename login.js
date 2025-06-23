@@ -8,6 +8,6 @@ form.addEventListener('submit',function(e){
     e.preventDefault();
     
    localStorage.setItem('f-name',f.value);
-    window.location.href="indexhome.html";
+    window.location.href="home.html";
 
 });
