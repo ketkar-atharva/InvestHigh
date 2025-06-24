@@ -1,3 +1,3 @@
-const first=localStorage.getItem('f-name');
-let n=document.getElementById("namehome");
+let first=localStorage.getItem('intro');
+let n=document.getElementById("Name");
 n.textContent=first;
