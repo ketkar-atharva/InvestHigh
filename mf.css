@@ -19,14 +19,25 @@ body{
     border: none;
     background:linear-gradient(#4c8ddc,#32cab3,#20e3ac);
     justify-content: center;
-    display: flex;
+  
 }
 main{
     display:flex ;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+   
 
+}
+.funds{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.fundvalue{
+   margin-top: 0%;
+    display: flex;
+   
 }
 .addfund{
     margin-top: 15px;
@@ -36,10 +47,25 @@ main{
     border-radius: 30px;
     border: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: white;
     padding-left: 20px;
+     
 }
+.addvalue{
+    margin-top: 15px;
+    margin-bottom:20px ;
+    height: 35px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-left: 20px;
+     
+}
+
 input{
     border: none;
     font-size: 14px;
@@ -55,3 +81,15 @@ button{
     background-color: grey;
     cursor: pointer;
 }
+ul{
+    list-style:circle;
+  
+
+}
+#valuelist{
+    margin-left: 300px;
+}
+#fundlist{
+    margin-left: 20px;
+}
+
