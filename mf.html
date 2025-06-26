@@ -13,27 +13,43 @@
     <main>
         <div class="container">
            <div class="funds">
-             <div class="addfund">
-                <input type="text" id="inputfund" placeholder="Add Fund"><button onclick="addfund()">Add</button>
-                  
-            </div>
-            <div class="addvalue">
-                <input type="text" id="inputvalue" placeholder="Add value"><button onclick="addvalue()">Add</button>
-            </div>
+                <div class="addfund">
+                    <input type="text" id="inputfund" placeholder="Add Fund"><button onclick="addfund()">Add</button>
+                    
+                </div>
+                <div class="addvalue">
+                    <input type="number" id="inputvalue" placeholder="Add value"><button onclick="addvalue()">Add</button>
+                </div>
+                <div class="addvalue">
+                <input type="number" id="inputnav" placeholder="Add NAV"><button onclick="addnav()">Add</button>
+                </div>
+                <span>Points</span>
+
            </div>
             
           
                 <div class="fundvalue">
                     <ul id="fundlist">
-          
+                    
                 </ul>
                 <ul id="valuelist">
-                
+                 
+                </ul>
+                <ul id="navlist">
+                  
+                </ul>
+                <ul id="tlist">
+                  
                 </ul>
                 </div>
-          
-        </div>
+            
+        
     </main>
+    <div class="total">
+        <div class="totalcontainer">
+            <span>Total Invested Value </span>
+        </div>
+    </div>
 
 
 

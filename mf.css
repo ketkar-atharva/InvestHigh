@@ -12,9 +12,10 @@ body{
     display: flex;
     justify-content: center;
 }
+/**Mutual fund container**/
 .container{
     height: 300px;
-    width: 700px;
+    width: 1200px;
     border-radius: 20px;
     border: none;
     background:linear-gradient(#4c8ddc,#32cab3,#20e3ac);
@@ -37,6 +38,7 @@ main{
 .fundvalue{
    margin-top: 0%;
     display: flex;
+   
    
 }
 .addfund{
@@ -65,6 +67,24 @@ main{
     padding-left: 20px;
      
 }
+#fundlist{
+    margin-left: 20px;
+}
+#valuelist{
+    margin-left: 280px;
+}
+#navlist{
+    margin-left: 280px;
+}
+#tlist{
+    margin-left: 200px; 
+    list-style: none;
+}
+span{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 input{
     border: none;
@@ -86,10 +106,25 @@ ul{
   
 
 }
-#valuelist{
-    margin-left: 300px;
-}
-#fundlist{
-    margin-left: 20px;
-}
 
+/**Total fund value container**/
+.total{
+    justify-content: center;
+    display: flex;
+}
+.totalcontainer{
+    height: 60px;
+    width: 700px;
+    background:linear-gradient(#4c8ddc,#32cab3,#20e3ac); 
+    margin-top: 20px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 20px;      
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+            
+}
