@@ -5,6 +5,7 @@ let listval=document.getElementById("valuelist");
 let nav=document.getElementById("inputnav");
 let listnav=document.getElementById("navlist");
 let listt1=document.getElementById("tlist");
+let total=document.getElementById("tvalue");
 let arrayvalue=[];
 
 
@@ -60,4 +61,14 @@ function addnav(){
     }else{
         alert("Sorry only 10 NAV can be added");
     }
+}
+function displaytotal(){
+    let sum=0;
+    for(let i=1;i<arrayvalue.length;i++){
+      
+        sum+=Number(arrayvalue[i]);
+    
+    }
+    total.innerHTML="";
+    total.textContent=sum;
 }

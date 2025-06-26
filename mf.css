@@ -98,7 +98,7 @@ button{
     border: none;
     font-size: 14px;
     color: white;
-    background-color: grey;
+   background-color: grey;
     cursor: pointer;
 }
 ul{
@@ -121,10 +121,12 @@ ul{
     border: none;
     border-radius: 20px;      
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
     font-size: 20px;
     font-weight: 700;
+
 
             
 }
