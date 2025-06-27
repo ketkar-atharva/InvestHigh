@@ -12,3 +12,60 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.container{
+    height: 300px;
+    width: 1200px;
+    border-radius: 20px;
+    border: none;
+    background:linear-gradient(#7712ba,#561db0,#526ce3);
+    justify-content: center;
+  
+}
+main{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+
+}
+/**FD input div**/
+.fd{
+    display: flex;
+    justify-content: center;
+}
+.addfd{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+input{
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    border-radius: 30px;
+    height: 35px;
+    font-size: 16px;
+    color: white;
+    background-color: grey;
+    width: 100px;
+    cursor: pointer;
+}
+/**Lists**/
+.addlist{
+    display: flex;
+
+}
+ul{
+    list-style: circle;
+}
