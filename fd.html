@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="fd.css">
+    <link rel="stylesheet" href="stylefd.css">
 </head>
 <body>
      <header>
@@ -23,7 +23,7 @@
                   <input type="number" id="inputin" placeholder="Add Interest"><button onclick="addin()">Add</button>
               </div>
                <div class="addyear">
-                  <input type="number" id="inputyear" placeholder="Add Period"><button onclick="addyear()">Add</button>
+                  <input type="number" id="inputyear" placeholder="Add Period"><button onclick="addyear();distotal()">Add</button>
               </div>
               <span style="margin-left: 100px;">Value</span>
 
@@ -52,8 +52,15 @@
             </div>
         </div>
     </main>
+     <div class="total">
+        <div class="totalcontainer">
+            <span>Total Invested Value </span>
+            <span id="tvalue">0</span >
+               
+        </div>
+    </div>
 
 
-    <script src="fd.js"></script>
+    <script src="jsfd.js"></script>
 </body>
 </html>

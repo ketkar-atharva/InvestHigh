@@ -138,3 +138,27 @@ ul{
 #valuelist{
     margin-left: 150px;
 }
+
+/**Total FD value container**/
+.total{
+    justify-content: center;
+    display: flex;
+}
+.totalcontainer{
+    height: 60px;
+    width: 700px;
+      background:linear-gradient(#9633d8,#7c46d2,#768ae6);
+    margin-top: 20px;
+    padding-left: 30px;
+    border: none;
+    border-radius: 20px;      
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+
+            
+}

@@ -7,6 +7,7 @@ let listam=document.getElementById("amlist");
 let listin=document.getElementById("inlist");
 let listval=document.getElementById("valuelist");
 let listyear=document.getElementById("yearlist");
+let total=document.getElementById("tvalue");
 let array=[];
 let int=[];
 let a=1;
@@ -72,5 +73,17 @@ function addyear(){
       y++;
 
    }
+}
+
+let sum=0;
+function distotal(){
+   if(sum!=0){
+      sum=0;
+   }
+   for(let i=1;i<array.length;i++){
+      sum+=Number(array[i]);
+   }
+   total.innerHTML="";
+   total.textContent=sum;
 }
 
