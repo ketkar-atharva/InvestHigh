@@ -38,7 +38,7 @@ main{
 }
 .addfd{
     height: 35px;
-    width: 250px;
+    width: 180px;
     background-color: white;
     border-radius: 30px;
     margin-left: 30px;
@@ -46,12 +46,12 @@ main{
     margin-bottom: 20px;
     padding-left: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
 
 }
 .addamount{
     height: 35px;
-    width: 250px;
+    width: 180px;
     background-color: white;
     border-radius: 30px;
     margin-top: 10px;
@@ -64,7 +64,20 @@ main{
 }
 .addin{
     height: 35px;
-    width: 250px;
+    width: 180px;
+    background-color: white;
+    border-radius: 30px;
+      margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.addyear{
+    height: 35px;
+    width: 180px;
     background-color: white;
     border-radius: 30px;
       margin-left: 50px;
@@ -78,7 +91,9 @@ main{
 input{
     border: none;
     outline: none;
-    
+    max-width: 100px;
+    padding-right: 10px;
+
 }
 button{
     border: none;
@@ -87,7 +102,7 @@ button{
     font-size: 16px;
     color: white;
     background-color: grey;
-    width: 150px;
+    width: 100px;
     cursor: pointer;
 }
 span{
@@ -99,9 +114,27 @@ span{
 /**Lists**/
 .addlist{
     display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
 
 }
 ul{
     list-style: circle;
     color: white;
+    max-width: 213px;
+}
+#acclist{
+    margin-left: 10px;
+}
+#amlist{
+    margin-left: 150px;
+}
+#inlist{
+    margin-left: 150px;
+}
+#yearlist{
+    margin-left: 150px;
+}
+#valuelist{
+    margin-left: 150px;
 }
