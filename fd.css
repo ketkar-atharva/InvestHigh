@@ -33,13 +33,41 @@ main{
 /**FD input div**/
 .fd{
     display: flex;
-    justify-content: center;
+    align-items: center;
+
 }
 .addfd{
     height: 35px;
     width: 250px;
     background-color: white;
     border-radius: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.addamount{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 10px;
+      margin-left: 50px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.addin{
+    height: 35px;
+    width: 250px;
+    background-color: white;
+    border-radius: 30px;
+      margin-left: 50px;
     margin-top: 10px;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -50,6 +78,7 @@ main{
 input{
     border: none;
     outline: none;
+    
 }
 button{
     border: none;
@@ -58,8 +87,14 @@ button{
     font-size: 16px;
     color: white;
     background-color: grey;
-    width: 100px;
+    width: 150px;
     cursor: pointer;
+}
+span{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    
 }
 /**Lists**/
 .addlist{
@@ -68,4 +103,5 @@ button{
 }
 ul{
     list-style: circle;
+    color: white;
 }
