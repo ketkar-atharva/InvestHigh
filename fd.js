@@ -10,6 +10,7 @@ let listyear=document.getElementById("yearlist");
 let total=document.getElementById("tvalue");
 let array=[];
 let int=[];
+let muval=[];
 let a=1;
 let y=1;
 let i=1;
@@ -68,6 +69,7 @@ function addyear(){
       listyear.appendChild(li);
        let l=document.createElement("li");
       l.innerHTML= array[y]*(1+(Number(int[y])/100))^year.value;
+      muval[y]=array[y]*(1+(Number(int[y])/100))^year.value;
       listval.appendChild(l);
       year.value="";
       y++;
@@ -76,14 +78,26 @@ function addyear(){
 }
 
 let sum=0;
+let msum=0;
 function distotal(){
-   if(sum!=0){
+   if(sum!=0 || msum!=0){
       sum=0;
+      msum=0;
    }
    for(let i=1;i<array.length;i++){
       sum+=Number(array[i]);
+      msum+=Number(muval[i]);
    }
    total.innerHTML="";
    total.textContent=sum;
+}
+
+function add(){
+   localStorage.setItem('fd',sum);
+   localStorage.setItem('mu',msum);
+
+   window.location.href="home.html";
+   sum=0;
+   msum=0;
 }
 

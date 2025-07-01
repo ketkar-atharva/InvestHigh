@@ -19,9 +19,10 @@ function addfund(){
         let li=document.createElement("li");
         li.innerHTML=input.value;
         list.appendChild(li);
-       
+        
          input.value="";
          n++;
+            
             
     }else{
         alert("sorry only 10 funds can be added");
@@ -62,13 +63,24 @@ function addnav(){
         alert("Sorry only 10 NAV can be added");
     }
 }
+let sum=0;
 function displaytotal(){
-    let sum=0;
+   if(sum!=0){
+            sum=0;
+        }
     for(let i=1;i<arrayvalue.length;i++){
-      
+       
         sum+=Number(arrayvalue[i]);
     
     }
     total.innerHTML="";
     total.textContent=sum;
+     
 }
+
+   function add(){
+      localStorage.setItem('invest',sum);
+    window.location.href="home.html";
+    sum=0;
+   }
+

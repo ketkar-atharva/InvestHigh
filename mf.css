@@ -77,7 +77,7 @@ main{
     margin-left: 280px;
 }
 #tlist{
-    margin-left: 200px; 
+    margin-left: 220px; 
     list-style: none;
 }
 span{
@@ -98,7 +98,7 @@ button{
     border: none;
     font-size: 14px;
     color: white;
-   background-color: grey;
+   background-color: rgb(17, 112, 171);
     cursor: pointer;
 }
 ul{
@@ -129,4 +129,8 @@ ul{
 
 
             
+}
+#add{
+    background: none;
+    border: 1px solid white;
 }
